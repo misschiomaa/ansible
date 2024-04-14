@@ -7,7 +7,7 @@
 
   tasks:
     - name: ping all servers
-    - ping:
+      ping:
 
     - name: installing httpd
       yum:
