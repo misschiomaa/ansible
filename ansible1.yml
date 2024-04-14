@@ -1,0 +1,11 @@
+---
+- hosts:
+    - node2
+    - node3
+    - node1
+
+  tasks:
+    - name: installing httpd
+      yum:
+        name: httpd
+        state: latest
