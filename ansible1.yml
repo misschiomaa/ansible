@@ -23,3 +23,8 @@
       service:
         name: httpd
         state: started
+
+    - name: installing git
+      yum:
+        name: git
+        state: latest
